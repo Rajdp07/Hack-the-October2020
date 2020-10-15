@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Temperature Converter</title>
+      <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h2 class="title">Temperature Converter</h2>
+      </header>
+      <div class="converter">
+          <span class="cel">Celcius :</span><input class="cel-input" onchange="converter()"  onpaste="this.onchange();" oninput="this.onchange();" type="number" placeholder="temperature in celcius..."> 
+          <span class="fra">Frahenheit :</span><input class="fra-input" disabled>
+          <span class="kel">Kelvin :</span><input class="kel-input" disabled>
+      </div>
+    
+        
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
