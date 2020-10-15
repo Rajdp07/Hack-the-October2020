@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Oswald:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: none; 
+}
+
+.contanier{
+    max-height: 100vh;
+    max-width: 100%;
+}
+
+.title{
+    padding: 2em;
+    max-height: 3em;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Oswald', sans-serif;
+}
+
+.converter{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.cel, .fra , .kel{
+    color: orange;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+.fra , .kel{
+    margin-left: 1em;
+}
+
+input{
+    border-radius: 10px;
+    border-color: chartreuse;
+    font-size: 12px;
+    width: 200px;
+    display:flex;
+    text-align: center;
+    outline: none; 
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.fra-input{
+    color: orangered;
+    font-weight: bold;
+}
+
+.kel-input{
+    color: dodgerblue;
+     outline: none; 
+}
